@@ -28,13 +28,13 @@
             <button @click="scrollToSection('app_screens_section')">
               {{ $t('nav.screen') }}
             </button>
-          </li>
+          </li> -->
 
           <li class="navbar_route">
             <button @click="scrollToSection('download_app_section')">
               {{ $t('nav.download') }}
             </button>
-          </li> -->
+          </li>
 
           <!-- <li class="navbar_route">
             <nuxt-link :to="localePath('/contact')">
@@ -129,6 +129,12 @@
             {{ $t('nav.terms') }}
           </nuxt-link>
         </li>
+
+        <li class="links_list_item" @click="toggleSmallScreensNavbarDrawer">
+            <nuxt-link :to="localePath('/policy')">
+              {{ $t('nav.policy') }}
+            </nuxt-link>
+          </li>
 
         <li class="links_list_item">
           <nuxt-link v-for="(locale, i) in showLocales" :key="i" :to="switchLocalePath(locale.code)">
