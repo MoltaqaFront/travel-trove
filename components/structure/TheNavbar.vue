@@ -4,7 +4,7 @@
       <!-- Start:: Logo -->
       <div class="logo_wrapper">
         <nuxt-link :to="localePath('/')">
-          <img src="~/assets/media/logo/logo.png" width="100" height="auto" alt="Logo" />
+          <img src="~/assets/media/logo/logo_2.png" width="300" height="auto" alt="Logo" />
         </nuxt-link>
       </div>
       <!-- End:: Logo -->
@@ -106,11 +106,11 @@
           </button>
         </li>
 
-        <li class="links_list_item" @click="toggleSmallScreensNavbarDrawer">
+        <!-- <li class="links_list_item" @click="toggleSmallScreensNavbarDrawer">
           <button @click="scrollToSection('app_screens_section')">
             {{ $t('nav.screen') }}
           </button>
-        </li>
+        </li> -->
 
         <li class="links_list_item" @click="toggleSmallScreensNavbarDrawer">
           <button @click="scrollToSection('download_app_section')">
@@ -118,11 +118,11 @@
           </button>
         </li>
 
-        <li class="links_list_item" @click="toggleSmallScreensNavbarDrawer">
+        <!-- <li class="links_list_item" @click="toggleSmallScreensNavbarDrawer">
           <button @click="scrollToSection('contact_us_section')">
             {{ $t('nav.contact') }}
           </button>
-        </li>
+        </li> -->
 
         <li class="links_list_item" @click="toggleSmallScreensNavbarDrawer">
           <nuxt-link :to="localePath('/terms')">

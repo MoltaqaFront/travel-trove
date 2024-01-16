@@ -229,7 +229,7 @@
       .logo_wrapper {
         img {
           width: 85px;
-          height: 85px;
+          height: unset;
         }
       }
       // ********** Navbar Routes Styles
@@ -315,13 +315,13 @@
   }
 }
 .logo_wrapper {
-    max-width: 60px;
+  max-width: 110px;
 }
 
 .logo_wrapper a {
-    width: 100%;
+  width: 100%;
 }
 
 .logo_wrapper a img {
-    width: 100%;
+  width: 100%;
 }

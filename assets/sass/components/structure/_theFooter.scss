@@ -20,7 +20,7 @@
       font-size: 20px;
 
       button {
-        transition: color 0.4s linear ;
+        transition: color 0.4s linear;
         &:hover,
         &.active {
           color: var(--secondary_theme_clr);
@@ -43,8 +43,9 @@
       column-gap: 25px;
       color: var(--main_theme_clr);
       font-size: 20px;
-      .icon  {
-        svg, i {
+      .icon {
+        svg,
+        i {
           font-size: 25px;
         }
       }
@@ -57,8 +58,9 @@
     flex-direction: column;
     row-gap: 25px;
     .social_links_item {
-      .icon  {
-        svg, i {
+      .icon {
+        svg,
+        i {
           color: var(--main_theme_clr);
           font-size: 30px;
         }
@@ -69,7 +71,7 @@
   .copyrights_contet {
     margin-top: 50px;
     padding-block: 30px;
-    background-color: #F8F9FC;
+    background-color: #f8f9fc;
     text-align: center;
     h6 {
       margin: 0;
@@ -84,7 +86,7 @@
     padding-top: 15px;
     .logo_wrapper {
       img {
-        width: 50%;
+        // width: 50%;
       }
     }
 
@@ -107,8 +109,9 @@
         }
         column-gap: 15px;
         font-size: 16px;
-        .icon  {
-          svg, i {
+        .icon {
+          svg,
+          i {
             font-size: 20px;
           }
         }
@@ -121,8 +124,9 @@
       flex-direction: row;
       column-gap: 35px;
       .social_links_item {
-        .icon  {
-          svg, i {
+        .icon {
+          svg,
+          i {
             color: var(--main_theme_clr);
             font-size: 25px;
           }
