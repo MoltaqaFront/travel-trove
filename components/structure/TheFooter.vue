@@ -52,7 +52,7 @@
                 <i class="fa-solid fa-fax"></i>
               </span>
 
-              <a href="tel:0566989608"><span class="value"> 0566989608</span></a>
+              <a href="tel:0566989608"><span class="value">0558185596</span></a>
             </li>
 
             <li class="contact_info_item">

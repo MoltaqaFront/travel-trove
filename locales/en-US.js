@@ -16,37 +16,38 @@ export default {
   mainSlider: [
     {
       mainTitle: 'About Travel-Trove',
-      title: 'Welcome to Travel trove - the luxury hospitality app',
-      desc: 'At Travel trove, we pride ourselves on providing an exceptional and unique hospitality experience. We work towards offering an integrated platform connecting service providers with service beneficiaries. The app serves as a mediator, facilitating booking processes and organizing the accommodation experience with ease and smoothness.',
+      title:
+        "Stay close and don't miss your golden opportunity. Invest with us in luxurious hotel hospitality units",
+      desc: 'Seize your opportunity for lucrative returns and exceptional growth in the residential units market. Experience moments of luxury and comfort in our luxurious hotel apartment. Book today to enjoy an unparalleled living experience where refined design meets luxury services.',
     },
   ],
   feature: [
     {
       image: '1.svg',
-      title: 'Ease of use',
-      desc: ' The application features a user-friendly interface, allowing users to easily browse offers and make reservations with ease.',
+      title: 'Secure multiple payment and rental methods',
+      desc: 'Strong protection for your properties against damage and loss.',
     },
     {
       image: '2.svg',
-      title: 'High quality and reliability',
-      desc: 'We deal with high-quality and reliable service providers, carefully selected to ensure an excellent experience for guests.',
+      title: 'Smart investment in the luxury hotel hospitality sector.',
+      desc: 'Competitive rates with a modern touch, ensuring guest privacy and comfort',
     },
     {
       image: '3.svg',
-      title: 'Excellent customer support',
-      desc: 'We prioritize customer support, providing a dedicated support team available around the clock to respond to user inquiries and issues.',
+      title: 'Smart self-check-in for guests',
+      desc: 'Our distinguished new locations feature complexes with advanced security systems.',
     },
   ],
   about: {
     mainTitle: 'Travel-Trove app is your ideal choice',
     title: 'About Travel-Trove',
-    desc: 'At Travltrove, we pride ourselves on providing an exceptional and unique hospitality experience. We work towards offering an integrated platform connecting service providers with service beneficiaries. The app serves as a mediator, facilitating booking processes and organizing the accommodation experience with ease and smoothness.',
+    desc: 'A Saudi platform founded in 2023, operating through our website and a 24/7 customer service, we strive to provide services tailored to the tourism needs in the Saudi market, with a focus on customer privacy and comfort. Our locations are situated in the heart of Riyadh, near prominent tourist attractions, vibrant areas, and the latest entertainment centers, providing renters unparalleled comfort and the opportunity to enjoy various appealing events surrounding them.',
   },
   downloadText:
     '<p>You can download the Travel-Trove app now by visiting the App Store on your smartphone, searching for Travel-Trove, and then downloading the app on your smartphone.</p>',
   isoLink: '',
   androidLink: '',
-  address: 'KSA - Jeddah',
+  address: 'Riyadh, Al-Aridh, King Abdulaziz Road',
   terms: {
     title: 'Terms And Conditions',
     desc_1:
